@@ -16,9 +16,11 @@ To-Do List é uma programa web simples para gerenciar tarefas diárias. Você po
 
 ## Tecnologias Utilizadas
 
-- **Frontend**: React
-- **Backend**: Node.js com Express
-- **Banco de Dados**: MongoDB
+- **Node.js**: Ambiente de execução para JavaScript no servidor.
+- **Express**: Framework web para Node.js.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **MongoDB**: Banco de dados NoSQL.
+- **Mongoose**: Biblioteca de modelagem de dados para MongoDB e Node.js.
 
 ## Como Acessar o Projeto
 
