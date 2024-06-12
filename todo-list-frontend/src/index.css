@@ -1,0 +1,156 @@
+/* Estilos básicos para o app */
+
+/* Estilos para o corpo da página */
+body {
+  margin: 0; /* Remove margens padrão */
+  background-color: #f0f2f5; /* Define a cor de fundo */
+  color: #333; /* Define a cor do texto */
+}
+
+/* Estilos para o componente App */
+.App {
+  text-align: center; /* Centraliza o conteúdo do componente */
+  padding: 40px 20px; /* Espaçamento interno */
+  max-width: 800px; /* Largura máxima */
+  margin: 0 auto; /* Centraliza horizontalmente na página */
+  background-color: #ffffff; /* Cor de fundo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  border-radius: 8px; /* Borda arredondada */
+}
+
+/* Estilos para os componentes de tarefa */
+.task-components {
+  display: flex; /* Exibe os componentes de tarefa em uma linha */
+  flex-direction: column; /* Organiza os componentes em coluna */
+  gap: 20px; /* Espaçamento entre os componentes */
+}
+
+/* Estilos para os formulários de adição e edição de tarefa */
+.add-task-form,
+.edit-task-form {
+  display: flex; /* Exibe os formulários em uma linha */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  gap: 15px; /* Espaçamento entre os elementos */
+  max-width: 100%; /* Largura máxima */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 30px; /* Espaçamento interno */
+  background-color: #f8f9fa; /* Cor de fundo */
+  border-radius: 8px; /* Borda arredondada */
+}
+
+/* Estilos para as etiquetas dos formulários */
+.add-task-form label,
+.edit-task-form label {
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para os inputs, textareas, selects e botões dos formulários */
+.add-task-form input,
+.add-task-form textarea,
+.add-task-form select,
+.add-task-form button,
+.edit-task-form input,
+.edit-task-form textarea,
+.edit-task-form select,
+.edit-task-form button {
+  width: 100%; /* Largura total */
+  padding: 15px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  border: 1px solid #ddd; /* Borda */
+  border-radius: 4px; /* Borda arredondada */
+  box-sizing: border-box; /* Inclui o preenchimento e a borda na largura total */
+}
+
+/* Estilos específicos para os textareas */
+.add-task-form textarea,
+.edit-task-form textarea {
+  resize: none; /* Impede o redimensionamento */
+  height: 100px; /* Altura fixa */
+}
+
+/* Estilos para os botões de submit dos formulários */
+.add-task-form button,
+.edit-task-form button {
+  background-color: #007BFF; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda */
+  cursor: pointer; /* Cursor do mouse */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Estilos de hover para os botões de submit dos formulários */
+.add-task-form button:hover,
+.edit-task-form button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o componente de filtro de tarefas */
+.filter-tasks {
+  margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Estilos para o input de filtro */
+.filter-tasks input {
+  padding: 10px; /* Espaçamento interno */
+  width: 100%; /* Largura total */
+  max-width: 300px; /* Largura máxima */
+  font-size: 16px; /* Tamanho da fonte */
+  border: 1px solid #ddd; /* Borda */
+  border-radius: 4px; /* Borda arredondada */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Estilos para a lista de tarefas */
+.task-list {
+  display: flex; /* Exibe as tarefas em uma linha */
+  flex-wrap: wrap; /* Permite que as tarefas quebrem para a próxima linha */
+  gap: 20px; /* Espaçamento entre as tarefas */
+  justify-content: center; /* Centraliza as tarefas horizontalmente */
+}
+
+/* Estilos para cada item de tarefa */
+.task-item {
+  background-color: #fff; /* Cor de fundo */
+  padding: 15px; /* Espaçamento interno */
+  border: 1px solid #ddd; /* Borda */
+  border-radius: 4px; /* Borda arredondada */
+  width: calc(50% - 20px); /* Duas colunas por linha */
+  box-sizing: border-box; /* Inclui o preenchimento e a borda na largura total */
+  transition: background-color 0.3s ease; /* Transição suave */
+  display: flex; /* Exibe os elementos em uma linha */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  justify-content: space-between; /* Distribui o espaço entre os elementos verticalmente */
+}
+
+/* Estilos de hover para cada item de tarefa */
+.task-item:hover {
+  background-color: #f1f1f1; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para os botões dentro dos itens de tarefa */
+.task-item button {
+  background-color: transparent; /* Cor de fundo transparente */
+  border: none; /* Remove a borda */
+  cursor: pointer; /* Cursor do mouse */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilos para o botão de edição */
+.task-item button.edit {
+  color: #007BFF; /* Cor do texto */
+}
+
+/* Estilos para o botão de exclusão */
+.task-item button.delete {
+  color: #dc3545; /* Cor do texto */
+}
+
+/* Estilos para o botão de completar */
+.task-item button.complete {
+  color: #28a745; /* Cor do texto */
+}
+
+/* Alinhamento dos botões */
+button[type="submit"] {
+  margin-bottom: 10px; /* Margem inferior */
+}
