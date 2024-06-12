@@ -78,8 +78,8 @@ A aplicação estará disponível em http://localhost:3000.
 ```bash
 .
 ├── backend
-│   ├── models
-│   ├── routes
+│   ├── node_modules
+│   ├── todo-list-frontend
 │   ├── server.js
 │   └── ...
 ├── frontend
@@ -96,7 +96,7 @@ A aplicação estará disponível em http://localhost:3000.
 Backend
 
 - models: Contém os modelos Mongoose para o MongoDB.
-- routes: Contém as rotas da API.
+- Todo-list-fronted: Pasta com arquivos do frontend.
 - server.js: Arquivo principal do servidor.
 
 Frontend
