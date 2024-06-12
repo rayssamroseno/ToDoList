@@ -107,7 +107,11 @@ Frontend
 - App.js: Componente principal da aplicação.
 - index.css: Estilos globais da aplicação.
 
-  ## SneakPeek
+  ## SneakPeek (Breve visualização)
 
-  ![image](https://github.com/rayssamroseno/ToDoList/assets/171452897/a83885da-849c-4f5f-9de7-640fe939f8ba)
+  <p align="center">
+  <img width="200" src="![image](https://github.com/rayssamroseno/ToDoList/assets/171452897/a83885da-849c-4f5f-9de7-640fe939f8ba)">
+  </p>
 
+
+  
