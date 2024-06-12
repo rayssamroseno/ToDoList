@@ -48,8 +48,8 @@ npm install
 3. **Configure o banco de dados:**
 
 ```bash
-  Certifique-se de que o MongoDB está em execução na porta padrão (27017)
-  ou configure a URL do MongoDB no arquivo .env na raiz do diretório backend.
+  Certifique-se de que o MongoDB está em execução na porta padrão (27017) ou configure a URL MongoDB no arquivo .env
+  na raiz no diretório backend.
 ```
 
 4. **Inicie o backend:**
