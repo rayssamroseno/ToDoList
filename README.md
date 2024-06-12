@@ -109,6 +109,6 @@ Frontend
 
   ## SneakPeek (Breve visualização)
 
-<p align="center">
-  <img width="200" src="https://raw.githubusercontent.com/rayssamroseno/ToDoList/main/assets/171452897/a83885da-849c-4f5f-9de7-640fe939f8ba">
-</p>
+![image](https://github.com/rayssamroseno/ToDoList/assets/171452897/5f7f0b77-b03a-4920-97d3-b489bee9ba90)
+
+
