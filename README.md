@@ -73,7 +73,7 @@ npm start
 ```
 A aplicação estará disponível em http://localhost:3000.
 
-**Estrutura do Projeto**
+## Estrutura do Projeto
 
 ```bash
 .
