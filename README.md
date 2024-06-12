@@ -106,3 +106,8 @@ Frontend
 - components: Contém os componentes React da aplicação.
 - App.js: Componente principal da aplicação.
 - index.css: Estilos globais da aplicação.
+
+  ## SneakPeek
+
+  ![image](https://github.com/rayssamroseno/ToDoList/assets/171452897/a83885da-849c-4f5f-9de7-640fe939f8ba)
+
