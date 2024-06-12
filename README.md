@@ -96,7 +96,7 @@ A aplicação estará disponível em http://localhost:3000.
 Backend
 
 - models: Contém os modelos Mongoose para o MongoDB.
-- Todo-list-fronted: Pasta com arquivos do frontend.
+- todo-list-fronted: Pasta com arquivos do frontend.
 - server.js: Arquivo principal do servidor.
 
 Frontend
