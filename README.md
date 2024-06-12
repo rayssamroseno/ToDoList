@@ -34,7 +34,7 @@ Para acessar o projeto localmente, siga os passos abaixo:
 1. **Clone o repositório:**
 
 ```bash
-git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/rayssamroseno/ToDoList)
+git clone git clone https://github.com/rayssamroseno/ToDoList.git
 cd ToDoList
 ```
 
